@@ -108,12 +108,13 @@ body{
     font-size: 0.55rem;
     font-weight: 400;
     color: hsl(276, 55%, 52%);
-    width: 54%;
+    width: 53%;
     padding: 0.4rem;
     padding-left: 0.6rem;
+    padding-right: 0.6rem;
     background-color: hsl(0, 0%, 91%);
     border-radius: 0.7rem;
-    border-bottom-left-radius: 0.4rem;
+    border-bottom-left-radius: 0.3rem;
     margin: 0.7rem;
     line-height: 0.8rem;
 }
@@ -141,6 +142,7 @@ body{
     border-bottom-right-radius: 0.4rem;
     margin: 0.7rem;
     line-height: 0.8rem;
+    box-shadow: 5px 5px 5px #e8e8e8;
 }
 .mid:nth-of-type(4){
     display: flex;
