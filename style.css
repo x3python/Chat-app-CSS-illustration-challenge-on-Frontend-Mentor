@@ -117,3 +117,41 @@ body{
     margin: 0.7rem;
     line-height: 0.8rem;
 }
+.mid:nth-of-type(3) img{
+    width: 45px;
+    height: auto;
+    border-radius: 0.7rem;
+}
+.mid:nth-of-type(3){
+    display: flex;
+    justify-content: end;
+    column-gap: 0.5rem;
+    padding-top: 0.4rem;
+    padding-right: 0.7rem;
+}
+.mid h2.wt{
+    font-size: 0.55rem;
+    font-weight: 400;
+    color: hsl(271, 15%, 43%);
+    width: 54%;
+    padding: 0.4rem;
+    padding-left: 0.6rem;
+    background-color: #fff;
+    border-radius: 0.7rem;
+    border-bottom-right-radius: 0.4rem;
+    margin: 0.7rem;
+    line-height: 0.8rem;
+}
+.mid:nth-of-type(4){
+    display: flex;
+    justify-content: end;
+}
+.mid:nth-of-type(5){
+    display: flex;
+    justify-content: end;
+}
+.mid:nth-of-type(5) h2.wt{
+    margin: 0;
+    margin-right: 0.7rem;
+    width: auto;
+}
