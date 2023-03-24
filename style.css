@@ -33,7 +33,7 @@ body{
     height: 100%;
     background-color: #fff;
     border-radius: 2rem;
-    box-shadow: 10px 10px 20px #e6e6e6;
+    box-shadow: 10px 10px 20px #cecdcd;
 }
 .base:nth-of-type(2) h1{
     font-size: 3rem;
@@ -232,4 +232,11 @@ h2.md-text{
     align-self: center;
     margin-right: 0.3rem;
 }
+.button svg{
+    margin-top: 0.35rem;
+    margin-left: 0.4rem;
+}
 
+@media(max-width: 800px){
+    
+}
