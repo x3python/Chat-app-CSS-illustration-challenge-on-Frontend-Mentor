@@ -238,5 +238,13 @@ h2.md-text{
 }
 
 @media(max-width: 800px){
-    
+    body{
+        height:100%;
+        justify-content: center;
+    }
+    .basic{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
 }
